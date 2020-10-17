@@ -1,0 +1,133 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+::-webkit-scrollbar {
+    width:0px;
+}
+
+body {
+    font-family:'Commissioner', sans-serif;
+    background:#fafafa;
+    padding-left:5vw;
+}
+
+header {
+    position:fixed;
+    height:10vh;
+    width:100%;
+    background:rgba(255,255,255,0.9);
+    bottom:0;
+    left:0;
+}
+
+.nav {
+    width:100%;
+    height:100%;
+}
+
+.nav-list {
+    display:flex;
+    gap:2em;
+    list-style:none;
+    align-items:center;
+    justify-content:center;
+    letter-spacing:0.1px;
+    height:100%;
+}
+
+.nav-link {
+    text-decoration:none;
+    color:#000;
+    transition:0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color:#1167b1;
+    transition:0.2s ease-in-out;
+}
+
+.title {
+    padding-top:5vh;
+    padding-bottom:3vh;
+    font-size:2.5em;
+}
+
+.card {
+    width:90%;
+    background:#1167b1;
+    border-radius:10px;
+    padding:5vh;
+    color:#fff;
+}
+
+.keyword {
+    font-weight:500;
+    text-transform:uppercase;
+    font-size:1em;
+}
+
+.card-title {
+    font-weight:900;
+    letter-spacing:0.5px;
+    font-size:2.5em;
+}
+
+.card .description {
+    line-height:1.6;
+    font-weight:200;
+    color:#eee;
+    padding-top:5vh;
+}
+
+.list-title {
+    padding-top:5vh;
+}
+
+.list {
+    background:#eee;
+    margin-top:3vh;
+    padding:5vh;
+    width:90%;
+    border-radius:10px;
+}
+
+.grid {
+    display:grid;
+    grid-column-templates:repeat(auto-fit, 1fr);
+    grid-row-gap:3vh;
+}
+
+.name {
+    font-size:1.5em;
+}
+
+.grid .description {
+    font-size:1em;
+    font-weight:300;
+    color:#444;
+    padding-top:1vh;
+    line-height:1.6;
+}
+
+.link {
+    margin-top:2vh;
+    display:inline-block;
+    padding:0.5vh 4vw;
+    border-radius:10px;
+    border:3px solid #1167b1;
+    text-decoration:none;
+    color:#1167b1;
+    text-transform:uppercase;
+    font-weight:500;
+    transition:color 0.2s ease-in-out, background 0.2s ease-in;
+}
+
+.link:hover {
+    background:#1167b1;
+    color:white;
+    transition:color 0.2s ease-in-out, background 0.2s ease-in;
+}
